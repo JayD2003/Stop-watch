@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+
+.stopwatch-container{
+    margin: 0%;
+    padding: 0%;
+    background-color: #000;
+    width: 600px;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 35px;
+    padding-bottom: 10px;
+    box-shadow: 3.9px 7.8px 7.8px hsl(0deg 0% 0% / 0.38);
+}
+
+.stopwatch-time {
+    margin: 30px;
+    text-align: center;
+    color: #fff;
+    font-size: 100px;
+}
+
+.stopwatch-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.stopwatch-buttons button {
+    margin: 30px;
+    border: none;
+    padding: 10px 30px;
+    cursor: pointer;
+    color: #fff;
+    font-family: "Bodoni Moda", serif;
+    font-size: xx-large;
+}
+
+.stopwatch-buttons button:first-child {
+    background-color: green;
+}
+
+.stopwatch-buttons button:last-child {
+    background-color: red;
+}
+
+.lap{
+    color: #fff;
+}
